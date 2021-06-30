@@ -1,0 +1,48 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background:#E4E3E4;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+}
+
+.profile-icon {
+  width: 125px;
+  border: 1px solid black;
+  border-radius: 125px;
+}
+
+.name {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  white-space:nowrap;
+}
+
+.job {
+  font-size: 15px;
+  color: #808080;
+  white-space:nowrap;
+}
+
+.links {
+  padding-top: 20px;
+  white-space:nowrap;
+}
+
+.media-icon {
+  width: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.links a {
+  text-decoration: none;
+}
